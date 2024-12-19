@@ -1,3 +1,3 @@
 # ansible_course
 For ansible training purposes
-Place holder for future edits and updates 
+Place holder for future edits for the ansible course

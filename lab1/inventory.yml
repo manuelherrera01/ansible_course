@@ -1,0 +1,12 @@
+all:
+  children:
+    webservers:
+      hosts:
+        web1:
+          ansible_host: 13.57.210.48
+        web2:
+          ansible_host: 13.52.250.166
+
+      vars:
+        ansible_user: ubuntu
+        ansible_ssh_private_key_file: ~/Documents/ansible/ansible_course/ansiblelabs.pem
